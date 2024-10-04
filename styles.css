@@ -1,0 +1,8 @@
+.hover {
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.hover:hover {
+    transform: scale(1.1);
+    background-color: rgba(0, 0, 0, 0.1); /* Cambia el color de fondo al hacer hover */
+}
